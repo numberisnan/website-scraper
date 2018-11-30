@@ -1,0 +1,17 @@
+{
+  "name": "site-scraper",
+  "version": "1.0.0",
+  "description": "A project for a friend",
+  "main": "index.js",
+  "dependencies": {
+    "jsdom": "^13.0.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js https://horriblesubs.info/shows/black-clover/#60"
+  },
+  "author": "Faraz Malik",
+  "license": "MIT"
+}
